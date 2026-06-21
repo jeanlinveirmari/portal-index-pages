@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>关于雷速 · 站点说明</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #fafbfc;
+            font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            color: #1e293b;
+            line-height: 1.75;
+            padding: 2rem 1.5rem 4rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .page {
+            max-width: 680px;
+            width: 100%;
+        }
+
+        /* 标题层级 */
+        .site-title {
+            font-size: 1rem;
+            font-weight: 400;
+            letter-spacing: 0.02em;
+            color: #6b7280;
+            margin-bottom: 2.5rem;
+            border-bottom: 1px solid #e9edf2;
+            padding-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 0.4rem;
+        }
+
+        .site-title span {
+            background: #dbeafe;
+            color: #1e3a5f;
+            font-size: 0.7rem;
+            font-weight: 500;
+            padding: 0.1rem 0.6rem;
+            border-radius: 12px;
+            letter-spacing: 0.04em;
+        }
+
+        h1 {
+            font-size: 2.2rem;
+            font-weight: 600;
+            line-height: 1.25;
+            margin-bottom: 1.2rem;
+            color: #0f172a;
+            letter-spacing: -0.01em;
+        }
+
+        .subhead {
+            font-size: 1.05rem;
+            color: #475569;
+            margin-bottom: 2.8rem;
+            border-left: 3px solid #94a3b8;
+            padding-left: 1.2rem;
+            max-width: 570px;
+        }
+
+        h2 {
+            font-size: 1.35rem;
+            font-weight: 500;
+            margin-top: 2.8rem;
+            margin-bottom: 0.9rem;
+            color: #1e293b;
+            letter-spacing: -0.005em;
+        }
+
+        h3 {
+            font-size: 1.05rem;
+            font-weight: 500;
+            margin-top: 1.8rem;
+            margin-bottom: 0.5rem;
+            color: #334155;
+        }
+
+        p {
+            margin-bottom: 1.2rem;
+            font-size: 0.98rem;
+        }
+
+        a {
+            color: #2563eb;
+            text-decoration: none;
+            border-bottom: 1px solid transparent;
+            transition: border-color 0.2s;
+        }
+
+        a:hover {
+            border-bottom-color: #2563eb;
+        }
+
+        .inset-quote {
+            background: #f1f5f9;
+            border-left: 4px solid #64748b;
+            padding: 1rem 1.4rem;
+            margin: 1.8rem 0;
+            font-size: 0.95rem;
+            color: #1e293b;
+            border-radius: 0 8px 8px 0;
+        }
+
+        .inset-quote strong {
+            font-weight: 500;
+            color: #0f172a;
+        }
+
+        .note-box {
+            background: #f8fafc;
+            border: 1px solid #e2e8f0;
+            border-radius: 12px;
+            padding: 1.2rem 1.5rem;
+            margin: 2rem 0 1.5rem;
+            font-size: 0.93rem;
+            color: #334155;
+        }
+
+        .note-box em {
+            font-style: normal;
+            background: #fef9c3;
+            padding: 0.1rem 0.3rem;
+            border-radius: 4px;
+        }
+
+        .faq-item {
+            margin-top: 1.5rem;
+            border-bottom: 1px solid #edf2f7;
+            padding-bottom: 1.2rem;
+        }
+
+        .faq-item:last-child {
+            border-bottom: none;
+        }
+
+        .faq-q {
+            font-weight: 500;
+            margin-bottom: 0.3rem;
+            color: #0f172a;
+        }
+
+        .faq-a {
+            font-size: 0.92rem;
+            color: #475569;
+        }
+
+        .ending {
+            margin-top: 3.5rem;
+            padding-top: 1.8rem;
+            border-top: 1px solid #dce3ec;
+            font-size: 0.9rem;
+            color: #64748b;
+            text-align: center;
+        }
+
+        hr {
+            border: none;
+            border-top: 1px solid #e2e8f0;
+            margin: 2rem 0;
+        }
+
+        /* 响应式 */
+        @media (max-width: 500px) {
+            body {
+                padding: 1.5rem 1rem 3rem;
+            }
+
+            h1 {
+                font-size: 1.7rem;
+            }
+
+            .subhead {
+                font-size: 0.95rem;
+                padding-left: 1rem;
+            }
+
+            .inset-quote {
+                padding: 0.8rem 1rem;
+                font-size: 0.9rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="page">
+        <div class="site-title">
+            雷速 · 站点索引
+            <span>可信说明</span>
+        </div>
+
+        <h1>关于这个站点<br>一份平实的介绍</h1>
+        <div class="subhead">
+            从信息索引到工具入口，这里不做包装，只陈述存在的事实与边界。
+        </div>
+
+        <p>
+            你打开的这个页面，是 <a href="https://portal-index-rayspeed.com">雷速</a> 的一个简单介绍页。
+            它不属于某个产品发布会，也不是营销落地页。
+            它更像一张便签——记录了这个站点是什么、做什么、以及什么不是它的承诺。
+        </p>
+
+        <p>
+            整个设计围绕一个原则：<strong>克制</strong>。没有弹窗引导、没有夸张标语、
+            没有催促注册的按钮。只有文本、层级和一点留白。
+            如果你习惯信息密集的界面，这里可能会显得安静。但安静有时也是一种可信。
+        </p>
+
+        <div class="inset-quote">
+            <strong>引用一段站内说明：</strong>“这里不提供绝对正确的答案，只提供相对可靠的路径。
+            每个链接的指向都经过基础审查，但最终判断仍在你手中。”
+        </div>
+
+        <h2>站点的基本轮廓</h2>
+        <p>
+            雷速本质上是一个索引型工具，它聚合了一些经过筛选的入口和资源。
+            你可以把它理解为一个起点——从它出发，去往各个功能性页面或数据面板。
+            但它并不试图成为“唯一入口”，也不替代任何官方系统。
+        </p>
+
+        <p>
+            它更像一面信息中转墙。你在这里看到的内容，大多已经过基础核验，
+            但并不意味着绝对完整或实时。技术环境在变，信息也在流动，
+            保持一定的核查习惯总是好的。这也是为什么页面中会反复提醒：<em>自行判断</em>。
+        </p>
+
+        <h2>三个基本特征</h2>
+
+        <h3>1. 有限但清晰的范围</h3>
+        <p>
+            雷速不追求大而全的收录。每个索引条目都附带简要说明，
+            不堆砌关键词，也不刻意隐藏局限性。
+            如果一个入口已失效或变更，会尽可能标注——但偶尔也会有延迟。
+        </p>
+
+        <h3>2. 中性的语气，不煽动</h3>
+        <p>
+            你不会在页面上看到“立即获取”“限时开放”“震撼上线”这类措辞。
+            信息本身已经足够，不需要额外的情绪修辞。信任应该来自内容质量，而不是语言刺激。
+        </p>
+
+        <h3>3. 注重隐私与边界</h3>
+        <p>
+            页面本身不收集任何个人数据，也不嵌入第三方跟踪脚本。
+            所有跳转都是直接链接，不经过中间跳转页或参数追踪——这一点可以放心。
+        </p>
+
+        <div class="note-box">
+            <em>一个提醒：</em>当你通过 <a href="https://portal-index-rayspeed.com">雷速</a>
+            跳转到其他站点后，该站点的隐私政策由对方负责。
+            建议你在提交任何个人信息前，花一分钟阅读目标页面的隐私说明。
+        </div>
+
+        <h2>一些常见疑问（摘要）</h2>
+
+        <div class="faq-item">
+            <div class="faq-q">问：这个站点需要注册吗？</div>
+            <div class="faq-a">不需要。雷速目前完全开放，所有索引内容无需登录即可访问。
+            将来是否会增加部分受限区域，目前没有计划。</div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-q">问：索引的更新频率如何？</div>
+            <div class="faq-a">没有固定周期，但通常每周会做一次链接可用性检查。
+            如果发现大量失效条目，会集中更新。你也可以通过页面反馈渠道（暂未开放）提交建议。</div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-q">问：为什么强调“可信说明”而不是“权威说明”？</div>
+            <div class="faq-a">因为权威需要系统性背书，而可信只需要坦诚。
+            我们选择后者。任何索引都可能存在遗漏或偏差，提前说明比事后辩解更负责任。</div>
+        </div>
+
+        <hr>
+
+        <p>
+            如果你对这个站点的定位还有疑问，不妨把它当作一个书架索引——
+            它告诉你书在哪里，但不代替你阅读。每一本书的内容，仍然需要你自己去翻。
+            而雷速的存在意义，就是让“找到书”这件事稍微省力一点。
+        </p>
+
+        <p>
+            最后再重复一次：这里的主入口是 <a href="https://portal-index-rayspeed.com">雷速</a>。
+            你可以直接点进去浏览当前收录的内容，也可以关掉页面，
+            按自己的方式继续探索。没有压力，也没有隐藏条件。
+        </p>
+
+        <div class="ending">
+            写于一次普通的内容整理 · 保持简单 · 保持开放
+        </div>
+    </div>
+</body>
+</html>
